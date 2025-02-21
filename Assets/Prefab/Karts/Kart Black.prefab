@@ -18,7 +18,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 929e35d8b3b064c489cce60d6944c388, type: 3}
     - target: {fileID: -4954930621871939183, guid: 06d60adae70540b4d83c20371eca0d95, type: 3}
       propertyPath: maxPitch
-      value: 4
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4954930621871939183, guid: 06d60adae70540b4d83c20371eca0d95, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 754343391931130843, guid: 06d60adae70540b4d83c20371eca0d95, type: 3}
       propertyPath: m_LocalScale.x

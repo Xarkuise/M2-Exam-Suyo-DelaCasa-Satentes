@@ -253,7 +253,7 @@ MonoBehaviour:
   minSpeed: 0.3
   maxSpeed: 10
   minPitch: 1
-  maxPitch: 4
+  maxPitch: 2
 --- !u!82 &7736806454611415952
 AudioSource:
   m_ObjectHideFlags: 0
