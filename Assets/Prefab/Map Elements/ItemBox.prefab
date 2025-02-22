@@ -230,8 +230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f476e7e19b9c4404eac602429afc30be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxSoundSource: {fileID: 0}
-  boxSoundClip: {fileID: 8300000, guid: 9c1e2788b1d722e4b96a60ca0790cde8, type: 3}
 --- !u!1 &3401210597252314018
 GameObject:
   m_ObjectHideFlags: 0
