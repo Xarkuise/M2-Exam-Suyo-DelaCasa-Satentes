@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         UpdateWheels();
     }
 
-    /****************************************************** CAR MOVEMENT **********************************************************************/
+    //CAR MOVEMENT
     private void GetInput() {
         // Steering Input
         horizontalInput = Input.GetAxis("Horizontal");
@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
         wheelTransform.position = pos;
     }
     
-    /****************************************************** BOOST PADS **********************************************************************/
+    //BOOST PADS
 
     void OnTriggerEnter(Collider boostHit)
     {
@@ -101,7 +101,6 @@ public class PlayerController : MonoBehaviour
         if (carRigidbody != null)
         {   
              Debug.Log("SPEED!!!!");
-            // Apply a force to the car in its forward direction
             carRigidbody.AddForce(transform.forward * boost, ForceMode.Impulse);
         }
     }
